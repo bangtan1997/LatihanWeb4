@@ -1,5 +1,56 @@
 Anita (312310244)
 
+# PHP Framework
+# Mengaktfikan Ekstensi PHP
+Berikut beberapa ekstensi yang perlu diaktifkan:
+• php-json ekstension untuk bekerja dengan JSON;
+• php-mysqlnd native driver untuk MySQL;
+• php-xml ekstension untuk bekerja dengan XML;
+• php-intl ekstensi untuk membuat aplikasi multibahasa;
+• libcurl (opsional), jika ingin pakai Curl.
+Untuk mengaktifkan ekstentsi tersebut, melalu XAMPP Control Panel, pada bagian Apache klik Config -> PHP.ini
+
+
+# Instalasi Codeigniter 4
+• Unduh Codeigniter dari website https://codeigniter.com/download
+• Extrak file zip Codeigniter ke direktori htdocs/lab11_ci.
+• Ubah nama direktory framework-4.x.xx menjadi ci4.
+• Buka browser dengan alamat http://localhost/lab11_ci/ci4/public/
+
+![Screenshot 2025-04-21 213850](https://github.com/user-attachments/assets/a4027cce-de68-432d-85d9-a04697ff6b13)
+
+# Menjalankan CLI (Command Line Interface)
+Perintah yang dapat dijalankan untuk memanggil CLI Codeigniter adalah: 
+php spark
+![Screenshot 2025-04-19 135344](https://github.com/user-attachments/assets/79a5ad72-02b6-4dd7-b0a4-200fad2f3e9b)
+
+# Mengaktifkan Mode Debugging
+Secara default fitur ini belum aktif. Ketika terjadi error pada aplikasi akan ditampilkan pesan kesalahan, Semua jenis error akan ditampilkan sama. Untuk memudahkan mengetahui jenis errornya,maka perlu diaktifkan mode debugging dengan mengubah nilai konfigurasi pada environment
+variable CI_ENVIRINMENT menjadi development.
+
+# Membuat Route Baru
+Untuk mengetahui route yang ditambahkan sudah benar, buka CLI dan jalankan perintah berikut.
+php spark routes
+![Screenshot 2025-04-19 135757](https://github.com/user-attachments/assets/1cd657bf-51d2-47e0-8936-88de8186eb84)
+
+# Membuat Controller
+Selanjutnya adalah membuat Controller Page. Buat file baru dengan nama page.php pada direktori Controller kemudian isi kodenya seperti berikut.
+![Screenshot 2025-04-19 140454](https://github.com/user-attachments/assets/c54ee357-bf07-418f-80dd-2364a3e97270)
+
+Selanjutnya refresh Kembali browser, maka akan ditampilkan hasilnya yaotu halaman sudah dapat diakses.
+![Screenshot 2025-04-19 140332](https://github.com/user-attachments/assets/51b7f364-4bee-4026-a970-c73327a23b89)
+
+# Auto Routing
+![Screenshot 2025-04-19 140901](https://github.com/user-attachments/assets/46320100-4876-4aa6-ad23-5a086c83a645)
+
+# Membuat View 
+![Screenshot 2025-04-19 141212](https://github.com/user-attachments/assets/32be86c9-6276-4a4f-ab6f-5ffba35cc19c)
+
+# Membuat Layout Web dengan CSS
+![Screenshot 2025-04-21 213138](https://github.com/user-attachments/assets/5ebe12b7-1d81-45d8-a98f-f8585449d139)
+
+![Screenshot 2025-04-19 145623](https://github.com/user-attachments/assets/a5864c6c-9738-486b-8015-84eb5bf22876)
+
 # LatihanWeb4
 # 1. Membuat Box Element
 Kemudian tambahkan kode untuk membuat box element dengan tag div,Selanjutnya tambahkan deklarasi CSS pada head untuk membuat float element,
