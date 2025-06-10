@@ -10,6 +10,8 @@ Berikut beberapa ekstensi yang perlu diaktifkan:
 • libcurl (opsional), jika ingin pakai Curl.
 Untuk mengaktifkan ekstentsi tersebut, melalu XAMPP Control Panel, pada bagian Apache klik Config -> PHP.ini
 
+![Screenshot 2025-06-10 182110](https://github.com/user-attachments/assets/dac4c523-9016-4e8d-92de-7125e0921a98)
+
 
 # Instalasi Codeigniter 4
 • Unduh Codeigniter dari website https://codeigniter.com/download
